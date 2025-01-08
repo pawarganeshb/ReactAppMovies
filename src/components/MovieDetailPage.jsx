@@ -44,9 +44,9 @@ const MovieDetailPage = () => {
     if (!movie) return <div>Loading...</div>;
 
     return (
-        <div className="min-h-screen p-8 text-white bg-gray-900">
+        <div className="min-h-screen  p-8 text-white bg-gray-900">
             {/* Movie Header */}
-            <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-start">
+            <div className="flex flex-col items-center border rouded shadow p-3 gap-8 lg:flex-row lg:items-start">
                 <img
                     src={`${IMAGE_BASE_URL}${movie.poster_path}`}
                     alt={movie.title}
